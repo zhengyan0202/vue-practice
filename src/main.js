@@ -5,6 +5,7 @@ import App from './App'
 import router from './router'
 import axios from 'axios'
 import store from './store'
+require('./mock.js')
 
 Vue.config.productionTip = false
 Vue.prototype.$http = axios
