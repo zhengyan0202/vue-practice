@@ -4,11 +4,10 @@
 			<leftnav></leftnav>
 		</el-aside>
 		<el-container>
-			<el-header>Vue Element Openlayers Echarts</el-header>
+			<el-header>Vue Element Openlayers Echarts Axios Mockjs</el-header>
 			<el-main>
 				<router-view></router-view>
 			</el-main>
-			<el-footer>Footer</el-footer>
 		</el-container>
 	</el-container>
 </template>

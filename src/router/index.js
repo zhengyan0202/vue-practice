@@ -12,7 +12,7 @@ import Test3 from '../components/test/test3'
 import Test4 from '../components/test/test4'
 import View1 from '../components/view/view1'
 import View2 from '../components/view/view2'
-import View3 from '../components/view/view3'
+import Olmap from '../components/view/olmap'
 
 Vue.use(Router)
 Vue.use(ElementUI)
@@ -56,9 +56,9 @@ export default new Router({
       component: View2
     },
     {
-      path: '/view3',
-      name: 'view3',
-      component: View3
+      path: '/olmap',
+      name: 'olmap',
+      component: Olmap
     },
     { path: '*', component: Home }
   ]

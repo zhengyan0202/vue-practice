@@ -4,14 +4,14 @@
             <el-menu default-active="" class="el-menu-vertical-demo">
                 <router-link :to="{name: 'home'}">
                     <el-menu-item index="0">
-                        <i class="el-icon-star-on"></i>
+                        <i class="el-icon-picture"></i>
                         <span slot="title">首页</span>
                     </el-menu-item>
                 </router-link>
                 <!-- 导航一 -->
                 <router-link :to="{name: 'view1'}">
                     <el-menu-item index="2">
-                        <i class="el-icon-location"></i>
+                        <i class="el-icon-edit-outline"></i>
                         <span slot="title">导航一</span>
                     </el-menu-item>
                 </router-link>
@@ -23,10 +23,10 @@
                     </el-menu-item>
                 </router-link>
                 <!-- 导航三 -->
-                <router-link :to="{name: 'view3'}">
+                <router-link :to="{name: 'olmap'}">
                     <el-menu-item index="4">
-                        <i class="el-icon-setting"></i>
-                        <span slot="title">导航三</span>
+                        <i class="el-icon-location"></i>
+                        <span slot="title">地图</span>
                     </el-menu-item>
                 </router-link>
                 <!-- 导航四 -->
