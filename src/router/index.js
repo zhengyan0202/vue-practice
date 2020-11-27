@@ -4,7 +4,6 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 
 // 一级路由
-// import home from '../components/HelloWorld.vue'
 import Home from '../components/home/home'
 import Test1 from '../components/test/test1'
 import Test2 from '../components/test/test2'

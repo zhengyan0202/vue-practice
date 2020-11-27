@@ -72,8 +72,8 @@ export default {
     }
 }
 </script>
-<style scoped>
+<style lang="scss" scoped>
     .left-wrap{
-        margin-top: 60px;
+        margin-top: 80px;
     }
 </style>

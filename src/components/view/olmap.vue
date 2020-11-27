@@ -45,7 +45,7 @@ export default {
         initMap() {
             var map = new Map({ 
                 target: 'map',
-                layers: [googleMapLayer],
+                layers: [gaodeMapLayer],
                 view: new View({
                     projection: 'EPSG:4326',
                     center: [108.93676, 34.28466],
